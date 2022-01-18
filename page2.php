@@ -13,6 +13,7 @@ echo "bonjour et bon retour".$_SESSION['login'];
 else {
 $_SESSION['login']=$_GET['login'];
 echo "bonjour  ".$_GET['login'];
+echo "<a href=page3.php>vers page 3</a>";
 }
 ?>
 </body>
